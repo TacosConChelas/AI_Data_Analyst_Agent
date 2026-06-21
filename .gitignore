@@ -1,0 +1,37 @@
+# ── Python ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ── Virtual environments ───────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Environment / secrets ──────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── App runtime data (auto-created at startup) ─────────
+uploads/
+charts/
+chroma_db/
+
+# ── Build artifacts ────────────────────────────────────
+dist/
+build/
+
+# ── Logs ───────────────────────────────────────────────
+*.log
+
+# ── OS / editor ────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/
+
+# ── Local knowledge (no versionar) ─────────────────────
+.knowledge/
